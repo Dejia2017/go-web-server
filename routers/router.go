@@ -10,7 +10,4 @@ func init() {
 	beego.Router("/",&controllers.IndexController{})
 	beego.Router("/test",&controllers.TestController{},"*:Save")
 
-	beego.Router("/ws",&controllers.MyWebSocketController{})
-	beego.Router("/w",&controllers.WSMainController{})
-
 }
